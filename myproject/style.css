@@ -1,0 +1,19 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+.flag{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.center{
+    background-color: red;
+    border-radius: 50%;
+    height:300px;
+    width:300px;
+    margin-top: 150px;
+    
+}

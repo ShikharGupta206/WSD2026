@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Admission</title>
+
+    <link rel="stylesheet" href="exp03.css">
+</head>
+<body>
+    <h3>Admission</h3>
+    <table>
+        <tr>
+            <th>S.No.</th>
+            <th>Name of Branch</th>
+            <th>No. of seats</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Computer Science & Engineering</td>
+            <td>1080</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Computer Science & Engineering(AIML)</td>
+            <td>180</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Computer Science & Engineering(Data Science)</td>
+            <td>180</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Electronics & Communication Engineering</td>
+            <td>120</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>Mechanical Engineering</td>
+            <td>60</td>
+        </tr>
+    </table>
+</body>
+</html>
+CSS File: exp03.css
+h3 {
+    color: rgb(255, 42, 0);
+    font-size: 18px;
+    font-weight: bold;
+    border-bottom: 1px solid #000000;
+    padding-bottom: 2px;
+}
+
+table {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    font-size: 10px;
+}
+
+th {
+    background-color: #d8f7ed;
+    text-align: left;
+    padding: 5px 8px;
+}
+
+td {
+    padding: 5px 8px;
+}
+
+tr:nth-child(3),
+tr:nth-child(5) {
+    background-color: #d5eeee;
+}
+
+th:first-child,
+td:first-child {
+    width: 10%;
+}
+
+th:nth-child(2),
+td:nth-child(2) {
+    width: 65%;
+}
+
+th:last-child,
+td:last-child {
+    width: 25%;
+}

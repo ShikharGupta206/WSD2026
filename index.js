@@ -34,23 +34,33 @@
 // msgWithSum(SubmitEvent,"Rahul")
 
 
-function login(error,msg){
-    if(error){
-        console.log("Error is:"+error)
-    }
-    else{
-        console.log(msg)
-    }
-}
+// function login(error,msg){
+//     if(error){
+//         console.log("Error is:"+error)
+//     }
+//     else{
+//         console.log(msg)
+//     }
+// }
 
-function loginHandler(username,password,clbk){
-    if(username="s" && password=="12345"){
-        clbk(null,"Login Success")
-    }
-    else{
-        clbk("Username or password is incorrect",null)
-    }
-}
+// function loginHandler(username,password,clbk){
+//     if(username="s" && password=="12345"){
+//         clbk(null,"Login Success")
+//     }
+//     else{
+//         clbk("Username or password is incorrect",null)
+//     }
+// }
 
-login("e","s");
-loginHandler("s","12345")
+// login("e","s");
+// loginHandler("s","12345")
+
+
+// console.log("one")
+// console.log("two")
+// console.log("three")
+
+console.log("One")
+setTimeout(()=>{console.log("Two")},1000)
+console.log("Three")
+
